@@ -1,2 +1,5 @@
 - Revisited loops and practiced with range()
 - Learned a new tip from Stack Overflow
+# Tạo list số chẵn từ 0 đến 20
+evens = [x for x in range(21) if x % 2 == 0]
+print(evens)
