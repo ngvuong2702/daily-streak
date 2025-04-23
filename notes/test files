@@ -5,3 +5,6 @@ Test file - chỉ để tăng contribution 😄
 with open('example.txt', 'w') as f:
     f.write('This is a test file for Day 4 learning.')
 print("File written successfully!")
+git add .
+git commit -m "Day 5: Add string utilities and update README"
+git push
