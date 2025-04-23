@@ -1,0 +1,13 @@
+# day-5/string_utils.py
+
+def reverse_string(s):
+    return s[::-1]
+
+def is_palindrome(s):
+    return s == s[::-1]
+
+# Test
+if __name__ == "__main__":
+    print(reverse_string("hello"))       # olleh
+    print(is_palindrome("radar"))        # True
+    print(is_palindrome("python"))       # False
