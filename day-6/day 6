@@ -1,0 +1,13 @@
+# day-6/random_quote.py
+
+import random
+
+quotes = [
+    "Stay hungry, stay foolish.",
+    "Code is like humor. When you have to explain it, it’s bad.",
+    "In the middle of difficulty lies opportunity.",
+    "Talk is cheap. Show me the code."
+]
+
+print("💡 Today's quote:")
+print(random.choice(quotes))
