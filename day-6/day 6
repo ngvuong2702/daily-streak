@@ -11,3 +11,4 @@ quotes = [
 
 print("💡 Today's quote:")
 print(random.choice(quotes))
+ok
